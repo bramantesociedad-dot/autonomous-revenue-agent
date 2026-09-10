@@ -1,0 +1,28 @@
+import "dotenv/config";
+import path from "node:path";
+import { base, baseSepolia } from "viem/chains";
+import type { Address } from "viem";
+
+export const networkName = process.env.NETWORK ?? "base-sepolia";
+export const allowMainnet = process.env.ALLOW_MAINNET === "true";
+if (networkName === "base" && !allowMainnet) throw new Error("Mainnet locked: set ALLOW_MAINNET=true only after testnet validation.");
+export const chain = networkName === "base" ? base : baseSepolia;
+export const rpcUrl = process.env.RPC_URL ?? (networkName === "base" ? "https://mainnet.base.org" : "https://sepolia.base.org");
+export const defaultUsdc = networkName === "base" ? "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913" : "0x036CbD53842c5426634e7929541eC2318f3dCF7e";
+export const usdcAddress = (process.env.USDC_ADDRESS || defaultUsdc) as Address;
+export const treasuryAddress = process.env.TREASURY_ADDRESS as Address | undefined;
+export const adminAddress = (process.env.ADMIN_ADDRESS || process.env.TREASURY_ADDRESS) as Address | undefined;
+export const dataDir = process.env.DATA_DIR ? path.resolve(process.env.DATA_DIR) : path.resolve("data");
+export const reinvestBps = Number(process.env.REINVEST_BPS ?? "2000");
+if (!Number.isFinite(reinvestBps) || reinvestBps < 0 || reinvestBps > 3000) throw new Error("REINVEST_BPS must be 0..3000.");
+export const agentReserveUsdc = Number(process.env.AGENT_RESERVE_USDC ?? "500");
+export const startingBudgetUsd = Number(process.env.STARTING_BUDGET_USD ?? "100");
+export const maxExperimentUsd = Number(process.env.MAX_EXPERIMENT_USD ?? "10");
+export const maxDailySpendUsd = Number(process.env.MAX_DAILY_SPEND_USD ?? "20");
+export const targetUsd = Number(process.env.TARGET_USD ?? "100000");
+export const targetDate = process.env.TARGET_DATE ?? "2026-12-31";
+export const loopMinutes = Number(process.env.LOOP_MINUTES ?? "240");
+export const allowOnchainAssetLaunches = (process.env.ALLOW_ONCHAIN_ASSET_LAUNCHES ?? (networkName === "base-sepolia" ? "true" : "false")) === "true";
+export const port = Number(process.env.PORT ?? "8080");
+export const publicBaseUrl = process.env.PUBLIC_BASE_URL ?? `http://localhost:${port}`;
+export const storeName = process.env.STORE_NAME ?? "Autonomous Market";
