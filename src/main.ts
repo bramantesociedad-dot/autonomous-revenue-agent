@@ -4,8 +4,12 @@ import { startAgentLoop } from "./loop.js";
 import { scanRevenueOnce } from "./revenue-watcher.js";
 import { pilotMode } from "./config.js";
 import { seedPilotProducts } from "./pilot-products.js";
+import { seedMarketPilotProducts } from "./pilot-products-market.js";
 
-if(pilotMode) seedPilotProducts();
+if(pilotMode){
+  seedPilotProducts();
+  seedMarketPilotProducts();
+}
 startPilotStoreServer();
 
 const boot=await bootstrapOnce();
