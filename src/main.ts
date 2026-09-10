@@ -1,4 +1,4 @@
-import { startPilotStoreServer } from "./pilot-store-server.js";
+import { startStoreServer } from "./store-server.js";
 import { bootstrapOnce } from "./bootstrap.js";
 import { startAgentLoop } from "./loop.js";
 import { scanRevenueOnce } from "./revenue-watcher.js";
@@ -10,7 +10,7 @@ if(pilotMode){
   seedPilotProducts();
   seedMarketPilotProducts();
 }
-startPilotStoreServer();
+startStoreServer();
 
 const boot=await bootstrapOnce();
 console.log("[startup]",boot);
