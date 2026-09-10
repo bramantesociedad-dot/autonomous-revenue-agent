@@ -55,21 +55,55 @@ The best version of this pack is local. Replace generic destinations with specif
 
 Mission complete when you have a story you would not have had on an ordinary night.`;
 
+const personalizedDateEN = `# PERSONALIZED SECRET DATE MISSION
+
+This is a custom digital experience created after purchase using the city, country, occasion and preferences supplied at checkout.
+
+The delivered mission should include:
+- A clear mission objective.
+- A suggested route or sequence adapted to the buyer's city using only verifiable public places or generic location types when live verification is unavailable.
+- A time window and optional budget range.
+- Three to five progressive clues.
+- Two surprise challenges.
+- A scoring system.
+- A safe fallback if a suggested stop is unavailable.
+- A final reveal or memorable closing activity.
+
+The experience must remain legal, respectful, consensual and suitable for public participation. No invented local facts should be presented as real.`;
+
 export function seedMarketPilotProducts(){
+  const seeded:string[]=[];
   const slug="secret-date-mission-12-date-night-adventures";
-  if(getProduct(slug)) return [];
-  const p=saveProduct({
-    slug,
-    title:"Secret Date Mission — 12 Unusual Date-Night Adventures",
-    description:"A ready-to-play digital mission pack for couples: 12 unusual, city-flexible date-night adventures designed to turn an ordinary evening into a story.",
-    priceUsd:7.9,
-    content:secretDateNightEN,
-    format:"markdown",
-    language:"en",
-    targetMarket:"United States, United Kingdom, Canada, Australia",
-    tags:["date night","couples","scavenger hunt","digital gift","adventure","mission"],
-    active:true
-  });
-  console.log("[pilot-market] Seeded",p.slug);
-  return [p.slug];
+  if(!getProduct(slug)){
+    const p=saveProduct({
+      slug,
+      title:"Secret Date Mission — 12 Unusual Date-Night Adventures",
+      description:"A ready-to-play digital mission pack for couples: 12 unusual, city-flexible date-night adventures designed to turn an ordinary evening into a story.",
+      priceUsd:7.9,
+      content:secretDateNightEN,
+      format:"markdown",
+      language:"en",
+      targetMarket:"United States, United Kingdom, Canada, Australia",
+      tags:["date night","couples","scavenger hunt","digital gift","adventure","mission"],
+      active:true
+    });
+    console.log("[pilot-market] Seeded",p.slug);seeded.push(p.slug);
+  }
+  const premiumSlug="personalized-secret-date-mission";
+  if(!getProduct(premiumSlug)){
+    const p=saveProduct({
+      slug:premiumSlug,
+      title:"Personalized Secret Date Mission — Custom City Adventure",
+      description:"A custom date-night mission created around your city, occasion and interests, then delivered to your checkout email.",
+      priceUsd:29,
+      content:personalizedDateEN,
+      format:"markdown",
+      language:"en",
+      targetMarket:"Global English-speaking market",
+      tags:["personalized date night","couples","custom adventure","digital gift","city experience","mission"],
+      active:true
+    });
+    console.log("[pilot-market] Seeded",p.slug);seeded.push(p.slug);
+  }
+  return seeded;
 }
