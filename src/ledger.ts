@@ -1,0 +1,11 @@
+import fs from "node:fs";
+import path from "node:path";
+import { dataDir,startingBudgetUsd,targetUsd,targetDate } from "./config.js";
+const ledgerPath=path.join(dataDir,"ledger.json");
+export type LedgerEntry={at:string;kind:"cost"|"revenue"|"note";usd:number;label:string;txHash?:string;externalId?:string;productId?:string;market?:string;language?:string};
+type Ledger={startingBudgetUsd:number;entries:LedgerEntry[]};
+function ensureLedger():Ledger{fs.mkdirSync(dataDir,{recursive:true});if(!fs.existsSync(ledgerPath)){const initial={startingBudgetUsd,entries:[]};fs.writeFileSync(ledgerPath,JSON.stringify(initial,null,2));return initial;}return JSON.parse(fs.readFileSync(ledgerPath,"utf8"));}
+export function appendLedger(entry:Omit<LedgerEntry,"at">){const ledger=ensureLedger();if(entry.externalId&&ledger.entries.some(e=>e.externalId===entry.externalId))return ledger;ledger.entries.push({at:new Date().toISOString(),...entry});fs.writeFileSync(ledgerPath,JSON.stringify(ledger,null,2));return ledger;}
+export function spentLast24h(){const since=Date.now()-86400000;return ensureLedger().entries.filter(e=>e.kind==="cost"&&new Date(e.at).getTime()>=since).reduce((a,e)=>a+e.usd,0);}
+export function summarizeLedger(){const ledger=ensureLedger();const cost=ledger.entries.filter(e=>e.kind==="cost").reduce((a,e)=>a+e.usd,0);const revenue=ledger.entries.filter(e=>e.kind==="revenue").reduce((a,e)=>a+e.usd,0);return {startingBudgetUsd:ledger.startingBudgetUsd,costUsd:cost,revenueUsd:revenue,pnlUsd:revenue-cost,estimatedOperationalCashUsd:ledger.startingBudgetUsd+revenue-cost,spentLast24hUsd:spentLast24h(),entries:ledger.entries};}
+export function goalStatus(){const s=summarizeLedger();const end=new Date(`${targetDate}T23:59:59Z`).getTime();const daysRemaining=Math.max(0,(end-Date.now())/86400000);const remainingUsd=Math.max(0,targetUsd-s.revenueUsd);const requiredDailySalesUsd=daysRemaining>0?remainingUsd/daysRemaining:remainingUsd;const progressPct=targetUsd>0?Math.min(100,s.revenueUsd/targetUsd*100):0;return {targetUsd,targetDate,revenueUsd:s.revenueUsd,remainingUsd,daysRemaining:Number(daysRemaining.toFixed(2)),requiredDailySalesUsd:Number(requiredDailySalesUsd.toFixed(2)),progressPct:Number(progressPct.toFixed(4))};}
