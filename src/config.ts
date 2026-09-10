@@ -5,6 +5,7 @@ import type { Address } from "viem";
 
 export const networkName = process.env.NETWORK ?? "base-sepolia";
 export const allowMainnet = process.env.ALLOW_MAINNET === "true";
+export const pilotMode = process.env.PILOT_MODE === "true";
 if (networkName === "base" && !allowMainnet) throw new Error("Mainnet locked: set ALLOW_MAINNET=true only after testnet validation.");
 export const chain = networkName === "base" ? base : baseSepolia;
 export const rpcUrl = process.env.RPC_URL ?? (networkName === "base" ? "https://mainnet.base.org" : "https://sepolia.base.org");
