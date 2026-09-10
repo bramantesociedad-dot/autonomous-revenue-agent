@@ -31,7 +31,8 @@ const sources:any={
   "a-escada-21-dias":{name:"La Escalera",url:"https://bramantesociedad.com/escalera"},
   "mission-12-secret-adventures":{name:"Misión",url:"https://mision.app/"},
   "mision-primera-venta":{name:"Misión",url:"https://mision.app/"},
-  "secret-date-mission-12-date-night-adventures":{name:"Misión",url:"https://mision.app/"}
+  "secret-date-mission-12-date-night-adventures":{name:"Misión",url:"https://mision.app/"},
+  "personalized-secret-date-mission":{name:"Misión",url:"https://mision.app/"}
 };
 
 const stripeCheckoutLinks:Record<string,string>={
@@ -39,7 +40,8 @@ const stripeCheckoutLinks:Record<string,string>={
   "la-escalera-21-dias":"https://buy.stripe.com/cNi9AUcjU6556J5exV2VG0e",
   "a-escada-21-dias":"https://buy.stripe.com/bJe00kbfQ8ddffBgG32VG0f",
   "mission-12-secret-adventures":"https://buy.stripe.com/6oU5kE83Edxxd7tfBZ2VG0g",
-  "mision-primera-venta":"https://buy.stripe.com/aFaeVe1FggJJaZl2Pd2VG0h"
+  "mision-primera-venta":"https://buy.stripe.com/aFaeVe1FggJJaZl2Pd2VG0h",
+  "personalized-secret-date-mission":"https://buy.stripe.com/6oUaEYgAafFF3wT89x2VG0i"
 };
 
 const css="body{font-family:system-ui,-apple-system,sans-serif;margin:0;background:#f6f4ef;color:#171717}main{max-width:1020px;margin:auto;padding:34px 20px 72px}.hero{padding:54px 0 32px}.hero h1{font-size:clamp(38px,7vw,72px);line-height:.96;margin:0 0 18px}.hero p{font-size:20px;max-width:760px;color:#555}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}.card{background:#fff;border:1px solid #ddd;border-radius:18px;padding:24px}.price{font-size:29px;font-weight:800}.btn,button{display:inline-block;background:#171717;color:#fff;border:0;border-radius:12px;padding:13px 18px;text-decoration:none;font-size:16px;cursor:pointer}.btn.secondary,button.secondary{background:#fff;color:#171717;border:1px solid #bbb}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.muted{color:#666}.status{white-space:pre-wrap;margin-top:18px;padding:12px;background:#efeee9;border-radius:10px;min-height:20px}code{word-break:break-all}table{width:100%;border-collapse:collapse;background:#fff}th,td{text-align:left;padding:10px;border-bottom:1px solid #eee}@media(max-width:600px){main{padding:20px 16px}.hero{padding-top:30px}}";
