@@ -1,0 +1,29 @@
+{
+  "name": "autonomous-revenue-agent",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "tsx src/compile.ts",
+    "start": "tsx src/main.ts",
+    "agent:once": "tsx src/agent.ts",
+    "agent:loop": "tsx src/loop.ts",
+    "wallet:address": "tsx src/wallet-address.ts",
+    "wallet:export": "tsx src/wallet-export.ts",
+    "deploy:gateway": "tsx src/deploy-gateway.ts",
+    "watch:revenue": "tsx src/revenue-watcher.ts",
+    "ledger": "tsx src/show-ledger.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "latest",
+    "@openzeppelin/contracts": "latest",
+    "dotenv": "latest",
+    "solc": "latest",
+    "viem": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
