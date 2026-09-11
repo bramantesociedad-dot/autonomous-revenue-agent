@@ -1,0 +1,59 @@
+name: Sync launch pricing
+
+on:
+  push:
+    paths:
+      - '.github/workflows/sync-launch-pricing.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-pricing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update storefront pricing and checkout links
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('src/store-server.ts')
+          s = p.read_text()
+          replacements = {
+            'price:"$149 one-time",url:"https://buy.stripe.com/5kQfZies2gJJ9VhexV2VG0j"': 'price:"$49 one-time",url:"https://buy.stripe.com/28EcN6bfQbpp1oL0H52VG0m"',
+            'price:"$79/month",url:"https://buy.stripe.com/9B63cw5Vw9hhc3pfBZ2VG0l"': 'price:"$29/month",url:"https://buy.stripe.com/cNi5kE6ZAdxx0kHahF2VG0n"',
+            'price:"$490 one-time",url:"https://buy.stripe.com/dRm7sM6ZAbpp0kH1L92VG0k"': 'price:"$149 one-time",url:"https://buy.stripe.com/cNi00kbfQ2ST0kH3Th2VG0o"',
+            'Revenue Leak Audit — $149': 'Revenue Leak Audit — $49',
+            'competitors weekly — $79/month': 'competitors weekly — $29/month',
+          }
+          for old, new in replacements.items():
+            if old not in s:
+              print(f'warning: not found: {old}')
+            s = s.replace(old, new)
+          p.write_text(s)
+
+          r = Path('README.md')
+          if r.exists():
+            t = r.read_text()
+            t = t.replace('24-Hour Revenue Leak Audit — $149', '24-Hour Revenue Leak Audit — $49')
+            t = t.replace('Competitor Revenue Watch — $79/month', 'Competitor Revenue Watch — $29/month')
+            t = t.replace('Custom Branded Mission — $490', 'Custom Branded Mission — $149')
+            t = t.replace('https://buy.stripe.com/5kQfZies2gJJ9VhexV2VG0j', 'https://buy.stripe.com/28EcN6bfQbpp1oL0H52VG0m')
+            t = t.replace('https://buy.stripe.com/9B63cw5Vw9hhc3pfBZ2VG0l', 'https://buy.stripe.com/cNi5kE6ZAdxx0kHahF2VG0n')
+            t = t.replace('https://buy.stripe.com/dRm7sM6ZAbpp0kH1L92VG0k', 'https://buy.stripe.com/cNi00kbfQ2ST0kH3Th2VG0o')
+            r.write_text(t)
+          PY
+      - name: Commit pricing sync
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo 'No pricing changes needed'
+            exit 0
+          fi
+          git config user.name 'Revenue Agent'
+          git config user.email 'revenue-agent@users.noreply.github.com'
+          git add src/store-server.ts README.md
+          git commit -m 'Sync launch pricing and Stripe checkout links'
+          git push
