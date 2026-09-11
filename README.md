@@ -31,19 +31,19 @@ Use these free resources immediately:
 - [Hotel & Tourism Scavenger Hunt Revenue Guide](docs/hotel-scavenger-hunt-revenue-guide.md) — monetization models and experience architecture for hotels, resorts, events and tourism businesses.
 - [Branded Mission for Hotels and Resorts](docs/branded-mission-for-hotels-and-resorts.md) — package a property or destination into a monetizable branded guest experience.
 
-## 24-Hour Revenue Leak Audit — $149
+## 24-Hour Revenue Leak Audit — $49
 
 A focused conversion and offer audit for a public website. Includes prioritized fixes, quick wins, CTA and trust analysis, pricing/offer observations and an actionable revenue plan.
 
 Buy securely with Stripe: https://revenue-agent-v03-production.up.railway.app/go/audit?ref=github-readme
 
-## Competitor Revenue Watch — $79/month
+## Competitor Revenue Watch — $29/month
 
 Recurring competitor intelligence for small businesses. We monitor the customer's site and selected competitors and deliver weekly observations on offers, pricing, positioning, content, promotions and concrete revenue opportunities.
 
 Subscribe with Stripe: https://revenue-agent-v03-production.up.railway.app/go/watch?ref=github-readme
 
-## Custom Branded Mission — $490
+## Custom Branded Mission — $149
 
 A custom digital mission / scavenger-hunt concept for hotels, tourism businesses, events, teams and venues. Includes branded narrative, route/challenge structure, participant instructions and monetization ideas.
 
