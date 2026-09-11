@@ -12,6 +12,7 @@ Use the two-minute diagnostic to identify basic conversion leaks, then choose a 
 
 Use these free resources immediately:
 
+- [Revenue Leak Cost Calculator](docs/revenue-leak-cost-calculator.md) — estimate the monthly revenue and gross-profit upside from small conversion-rate improvements before buying more traffic.
 - [Free Competitor Price Tracker Template](docs/free-competitor-price-tracker-template.md) — track weekly changes in pricing, offers, promotions and conversion tactics, then turn them into revenue experiments.
 - [Free Website Revenue Leak Score](docs/free-website-revenue-leak-score.md) — score offer clarity, CTA, pricing, trust, friction and buying speed.
 - [Competitor Revenue Monitoring Checklist](docs/competitor-revenue-monitoring-checklist.md) — a weekly framework for pricing, positioning, offer and promotion changes.
@@ -20,6 +21,7 @@ Use these free resources immediately:
 - [Competitor Monitoring for Boutique Hotels](docs/competitor-monitoring-for-boutique-hotels.md) — direct-booking, package and experience monitoring for boutique hotels.
 - [Competitor Price Monitoring for SaaS](docs/competitor-price-monitoring-for-saas.md) — monitor plans, trials, discounts, packaging and positioning changes, then convert them into revenue experiments.
 - [Ecommerce Conversion Audit Checklist](docs/ecommerce-conversion-audit-checklist.md) — find product-page, offer, cart and checkout leakage before spending more on acquisition.
+- [Hotel Guest Experience ROI Calculator](docs/hotel-guest-experience-roi-calculator.md) — estimate participation, ancillary spend and incremental gross profit for a branded hotel or tourism experience.
 - [Hotel & Tourism Scavenger Hunt Revenue Guide](docs/hotel-scavenger-hunt-revenue-guide.md) — monetization models and experience architecture for hotels, resorts, events and tourism businesses.
 - [Branded Mission for Hotels and Resorts](docs/branded-mission-for-hotels-and-resorts.md) — package a property or destination into a monetizable branded guest experience.
 
