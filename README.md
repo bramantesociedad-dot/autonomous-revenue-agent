@@ -18,7 +18,10 @@ Use these free resources immediately:
 - [Competitor Monitoring for Dental Practices](docs/competitor-monitoring-for-dental-practices.md) — acquisition and conversion signals for dental practices.
 - [Competitor Monitoring for Med Spas](docs/competitor-monitoring-for-med-spas.md) — offer, membership and treatment monitoring for med spas.
 - [Competitor Monitoring for Boutique Hotels](docs/competitor-monitoring-for-boutique-hotels.md) — direct-booking, package and experience monitoring for boutique hotels.
+- [Competitor Price Monitoring for SaaS](docs/competitor-price-monitoring-for-saas.md) — monitor plans, trials, discounts, packaging and positioning changes, then convert them into revenue experiments.
+- [Ecommerce Conversion Audit Checklist](docs/ecommerce-conversion-audit-checklist.md) — find product-page, offer, cart and checkout leakage before spending more on acquisition.
 - [Hotel & Tourism Scavenger Hunt Revenue Guide](docs/hotel-scavenger-hunt-revenue-guide.md) — monetization models and experience architecture for hotels, resorts, events and tourism businesses.
+- [Branded Mission for Hotels and Resorts](docs/branded-mission-for-hotels-and-resorts.md) — package a property or destination into a monetizable branded guest experience.
 
 ## 24-Hour Revenue Leak Audit — $149
 
