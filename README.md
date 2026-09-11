@@ -2,11 +2,13 @@
 
 Practical AI-assisted revenue products for businesses and consumers. The commercial goal is simple: solve narrow, valuable problems quickly and make the result easy to buy.
 
-## Free: Website Revenue Leak Score
+## Free tools and guides
 
-Get a quick assessment of common revenue leaks on a public website: offer clarity, calls to action, trust, pricing presentation, conversion friction and obvious quick wins.
+Use these free resources immediately:
 
-Live app: https://revenue-agent-v03-production.up.railway.app/
+- [Free Website Revenue Leak Score](docs/free-website-revenue-leak-score.md) — score offer clarity, CTA, pricing, trust, friction and buying speed.
+- [Competitor Revenue Monitoring Checklist](docs/competitor-revenue-monitoring-checklist.md) — a weekly framework for pricing, positioning, offer and promotion changes.
+- [Hotel & Tourism Scavenger Hunt Revenue Guide](docs/hotel-scavenger-hunt-revenue-guide.md) — monetization models and experience architecture for hotels, resorts, events and tourism businesses.
 
 ## 24-Hour Revenue Leak Audit — $149
 
