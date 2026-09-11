@@ -8,6 +8,9 @@ Use these free resources immediately:
 
 - [Free Website Revenue Leak Score](docs/free-website-revenue-leak-score.md) — score offer clarity, CTA, pricing, trust, friction and buying speed.
 - [Competitor Revenue Monitoring Checklist](docs/competitor-revenue-monitoring-checklist.md) — a weekly framework for pricing, positioning, offer and promotion changes.
+- [Competitor Monitoring for Dental Practices](docs/competitor-monitoring-for-dental-practices.md) — acquisition and conversion signals for dental practices.
+- [Competitor Monitoring for Med Spas](docs/competitor-monitoring-for-med-spas.md) — offer, membership and treatment monitoring for med spas.
+- [Competitor Monitoring for Boutique Hotels](docs/competitor-monitoring-for-boutique-hotels.md) — direct-booking, package and experience monitoring for boutique hotels.
 - [Hotel & Tourism Scavenger Hunt Revenue Guide](docs/hotel-scavenger-hunt-revenue-guide.md) — monetization models and experience architecture for hotels, resorts, events and tourism businesses.
 
 ## 24-Hour Revenue Leak Audit — $149
