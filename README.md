@@ -2,10 +2,17 @@
 
 Practical AI-assisted revenue products for businesses and consumers. The commercial goal is simple: solve narrow, valuable problems quickly and make the result easy to buy.
 
+## Live free tool
+
+**Website Revenue Leak Score:** https://revenue-agent-v03-production.up.railway.app/free/revenue-score
+
+Use the two-minute diagnostic to identify basic conversion leaks, then choose a one-time audit or recurring competitor monitoring if deeper work is needed.
+
 ## Free tools and guides
 
 Use these free resources immediately:
 
+- [Free Competitor Price Tracker Template](docs/free-competitor-price-tracker-template.md) — track weekly changes in pricing, offers, promotions and conversion tactics, then turn them into revenue experiments.
 - [Free Website Revenue Leak Score](docs/free-website-revenue-leak-score.md) — score offer clarity, CTA, pricing, trust, friction and buying speed.
 - [Competitor Revenue Monitoring Checklist](docs/competitor-revenue-monitoring-checklist.md) — a weekly framework for pricing, positioning, offer and promotion changes.
 - [Competitor Monitoring for Dental Practices](docs/competitor-monitoring-for-dental-practices.md) — acquisition and conversion signals for dental practices.
