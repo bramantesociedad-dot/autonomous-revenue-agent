@@ -8,6 +8,12 @@ Practical AI-assisted revenue products for businesses and consumers. The commerc
 
 Use the two-minute diagnostic to identify basic conversion leaks, then choose a one-time audit or recurring competitor monitoring if deeper work is needed.
 
+## For agencies and partners
+
+**Revenue Partner Program:** [docs/partner-program.md](docs/partner-program.md)
+
+Agencies, consultants and operators can test the output first and then discuss referral, licensing or white-label use of the recurring competitor intelligence, revenue audits or branded guest missions.
+
 ## Free tools and guides
 
 Use these free resources immediately:
@@ -29,19 +35,19 @@ Use these free resources immediately:
 
 A focused conversion and offer audit for a public website. Includes prioritized fixes, quick wins, CTA and trust analysis, pricing/offer observations and an actionable revenue plan.
 
-Buy securely with Stripe: https://buy.stripe.com/5kQfZies2gJJ9VhexV2VG0j
+Buy securely with Stripe: https://revenue-agent-v03-production.up.railway.app/go/audit?ref=github-readme
 
 ## Competitor Revenue Watch — $79/month
 
 Recurring competitor intelligence for small businesses. We monitor the customer's site and selected competitors and deliver weekly observations on offers, pricing, positioning, content, promotions and concrete revenue opportunities.
 
-Subscribe with Stripe: https://buy.stripe.com/9B63cw5Vw9hhc3pfBZ2VG0l
+Subscribe with Stripe: https://revenue-agent-v03-production.up.railway.app/go/watch?ref=github-readme
 
 ## Custom Branded Mission — $490
 
 A custom digital mission / scavenger-hunt concept for hotels, tourism businesses, events, teams and venues. Includes branded narrative, route/challenge structure, participant instructions and monetization ideas.
 
-Buy securely with Stripe: https://buy.stripe.com/dRm7sM6ZAbpp0kH1L92VG0k
+Buy securely with Stripe: https://revenue-agent-v03-production.up.railway.app/go/mission?ref=github-readme
 
 ## Commercial model
 
