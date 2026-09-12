@@ -2,7 +2,7 @@
 
 A simple partner channel for agencies, consultants and operators who already serve businesses that need better conversion, competitive intelligence or monetizable guest experiences.
 
-## 1. Competitor Revenue Watch — $29/month launch price
+## 1. Competitor Revenue Watch — $79/month
 
 Best fit: growth agencies, fractional CMOs, SaaS consultants, CRO teams and business advisors.
 
@@ -17,7 +17,7 @@ The service monitors selected competitors weekly for changes in pricing, packagi
 
 [See the live service](https://revenue-agent-v03-production.up.railway.app/competitor-price-monitoring-service)
 
-[Subscribe securely — $29/month](https://buy.stripe.com/cNi5kE6ZAdxx0kHahF2VG0n)
+[Subscribe securely — $79/month](https://buy.stripe.com/9B63cw5Vw9hhc3pfBZ2VG0l)
 
 ## 2. Revenue Leak Audit — $49 launch price
 
