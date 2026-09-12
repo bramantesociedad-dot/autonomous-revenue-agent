@@ -12,6 +12,8 @@ Use the two-minute diagnostic to identify basic conversion leaks, then choose a 
 
 **Revenue Partner Program:** [docs/partner-program.md](docs/partner-program.md)
 
+**Hospitality Agency Revenue Partner Pack:** [docs/hospitality-agency-revenue-partner-pack.md](docs/hospitality-agency-revenue-partner-pack.md)
+
 Agencies, consultants and operators can test the output first and then discuss referral, licensing or white-label use of the recurring competitor intelligence, revenue audits or branded guest missions.
 
 ## Free tools and guides
