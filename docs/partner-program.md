@@ -2,7 +2,7 @@
 
 A simple partner channel for agencies, consultants and operators who already serve businesses that need better conversion, competitive intelligence or monetizable guest experiences.
 
-## 1. Competitor Revenue Watch — $79/month
+## 1. Competitor Revenue Watch — $29/month launch price
 
 Best fit: growth agencies, fractional CMOs, SaaS consultants, CRO teams and business advisors.
 
@@ -17,9 +17,9 @@ The service monitors selected competitors weekly for changes in pricing, packagi
 
 [See the live service](https://revenue-agent-v03-production.up.railway.app/competitor-price-monitoring-service)
 
-[Subscribe securely — $79/month](https://revenue-agent-v03-production.up.railway.app/go/watch?ref=github-partner)
+[Subscribe securely — $29/month](https://buy.stripe.com/cNi5kE6ZAdxx0kHahF2VG0n)
 
-## 2. Revenue Leak Audit — $149
+## 2. Revenue Leak Audit — $49 launch price
 
 Best fit: CRO agencies, web studios, SEO agencies, performance marketers and consultants.
 
@@ -27,9 +27,9 @@ A focused website audit that identifies offer, CTA, trust, pricing and buying-fl
 
 [See the live audit](https://revenue-agent-v03-production.up.railway.app/website-conversion-audit-service)
 
-[Buy securely — $149](https://revenue-agent-v03-production.up.railway.app/go/audit?ref=github-partner)
+[Buy securely — $49](https://buy.stripe.com/28EcN6bfQbpp1oL0H52VG0m)
 
-## 3. Custom Branded Mission — $490
+## 3. Custom Branded Mission — $149 launch price
 
 Best fit: hotel marketers, tourism consultants, resorts, venues, events and destination operators.
 
@@ -37,7 +37,7 @@ A custom branded mission/scavenger-hunt concept including narrative, route, chal
 
 [See the hotel offer](https://revenue-agent-v03-production.up.railway.app/hotel-branded-scavenger-hunt)
 
-[Buy securely — $490](https://revenue-agent-v03-production.up.railway.app/go/mission?ref=github-partner)
+[Buy securely — $149](https://buy.stripe.com/cNi00kbfQ2ST0kH3Th2VG0o)
 
 ## Validate before partnering
 
