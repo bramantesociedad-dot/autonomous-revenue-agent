@@ -37,11 +37,11 @@ A focused conversion and offer audit for a public website. Includes prioritized 
 
 **Buy securely with Stripe:** https://buy.stripe.com/28EcN6bfQbpp1oL0H52VG0m
 
-## Competitor Revenue Watch — $29/month
+## Competitor Revenue Watch — $79/month
 
 Recurring competitor intelligence for small businesses. We monitor the customer's site and selected competitors and deliver weekly observations on offers, pricing, positioning, content, promotions and concrete revenue opportunities.
 
-**Subscribe securely with Stripe:** https://buy.stripe.com/cNi5kE6ZAdxx0kHahF2VG0n
+**Subscribe securely with Stripe:** https://buy.stripe.com/9B63cw5Vw9hhc3pfBZ2VG0l
 
 ## Custom Branded Mission — $149
 
