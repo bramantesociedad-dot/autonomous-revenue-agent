@@ -10,6 +10,10 @@ Use the two-minute diagnostic to identify basic conversion leaks, then choose a 
 
 ## For agencies and partners
 
+**Agency Productized Revenue Service Profit Calculator:** [docs/agency-productized-service-profit-calculator.md](docs/agency-productized-service-profit-calculator.md)
+
+Use it to model potential client adoption, MRR, gross profit and setup revenue before launching a white-label revenue-intelligence service.
+
 **White-Label Competitor Monitoring for CRO Agencies:** [docs/white-label-competitor-monitoring-for-cro-agencies.md](docs/white-label-competitor-monitoring-for-cro-agencies.md)
 
 **Revenue Partner Program:** [docs/partner-program.md](docs/partner-program.md)
