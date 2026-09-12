@@ -14,6 +14,8 @@ Use the two-minute diagnostic to identify basic conversion leaks, then choose a 
 
 **Hospitality Agency Revenue Partner Pack:** [docs/hospitality-agency-revenue-partner-pack.md](docs/hospitality-agency-revenue-partner-pack.md)
 
+**Agency Revenue Intelligence Pilot — $490:** [docs/agency-revenue-intelligence-pilot.md](docs/agency-revenue-intelligence-pilot.md)
+
 Agencies, consultants and operators can test the output first and then discuss referral, licensing or white-label use of the recurring competitor intelligence, revenue audits or branded guest missions.
 
 ## Free tools and guides
@@ -51,6 +53,12 @@ Recurring competitor intelligence for small businesses. We monitor the customer'
 A custom digital mission / scavenger-hunt concept for hotels, tourism businesses, events, teams and venues. Includes branded narrative, route/challenge structure, participant instructions and monetization ideas.
 
 **Buy securely with Stripe:** https://buy.stripe.com/cNi00kbfQ2ST0kH3Th2VG0o
+
+## Agency Revenue Intelligence Pilot — $490
+
+A one-client B2B pilot for agencies and consultancies: competitor-intelligence setup, revenue-leak audit, white-label-ready delivery sample and a reseller/recurring upgrade path.
+
+**Buy securely with Stripe:** https://buy.stripe.com/cNieVees25110kHblJ2VG0p
 
 ## Commercial model
 
