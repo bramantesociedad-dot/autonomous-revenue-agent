@@ -20,6 +20,7 @@ Agencies, consultants and operators can test the output first and then discuss r
 
 Use these free resources immediately:
 
+- [Hotel Direct-Booking Revenue Leak Calculator](docs/hotel-direct-booking-revenue-leak-calculator.md) — estimate the monthly revenue and gross-profit upside from a small direct-booking conversion improvement, then prioritize CRO or guest-experience actions.
 - [Revenue Leak Cost Calculator](docs/revenue-leak-cost-calculator.md) — estimate the monthly revenue and gross-profit upside from small conversion-rate improvements before buying more traffic.
 - [Free Competitor Price Tracker Template](docs/free-competitor-price-tracker-template.md) — track weekly changes in pricing, offers, promotions and conversion tactics, then turn them into revenue experiments.
 - [Free Website Revenue Leak Score](docs/free-website-revenue-leak-score.md) — score offer clarity, CTA, pricing, trust, friction and buying speed.
