@@ -10,6 +10,8 @@ Use the two-minute diagnostic to identify basic conversion leaks, then choose a 
 
 ## For agencies and partners
 
+**White-Label Competitor Monitoring for CRO Agencies:** [docs/white-label-competitor-monitoring-for-cro-agencies.md](docs/white-label-competitor-monitoring-for-cro-agencies.md)
+
 **Revenue Partner Program:** [docs/partner-program.md](docs/partner-program.md)
 
 **Hospitality Agency Revenue Partner Pack:** [docs/hospitality-agency-revenue-partner-pack.md](docs/hospitality-agency-revenue-partner-pack.md)
