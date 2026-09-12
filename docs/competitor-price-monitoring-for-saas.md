@@ -31,6 +31,6 @@ Subscribe securely with Stripe:
 
 https://buy.stripe.com/9B63cw5Vw9hhc3pfBZ2VG0l
 
-Need a one-time conversion review first? The **24-Hour Revenue Leak Audit** is $149:
+Need a one-time conversion review first? The **24-Hour Revenue Leak Audit** is $49:
 
-https://buy.stripe.com/5kQfZies2gJJ9VhexV2VG0j
+https://buy.stripe.com/28EcN6bfQbpp1oL0H52VG0m
