@@ -35,19 +35,19 @@ Use these free resources immediately:
 
 A focused conversion and offer audit for a public website. Includes prioritized fixes, quick wins, CTA and trust analysis, pricing/offer observations and an actionable revenue plan.
 
-Buy securely with Stripe: https://revenue-agent-v03-production.up.railway.app/go/audit?ref=github-readme
+**Buy securely with Stripe:** https://buy.stripe.com/28EcN6bfQbpp1oL0H52VG0m
 
 ## Competitor Revenue Watch — $29/month
 
 Recurring competitor intelligence for small businesses. We monitor the customer's site and selected competitors and deliver weekly observations on offers, pricing, positioning, content, promotions and concrete revenue opportunities.
 
-Subscribe with Stripe: https://revenue-agent-v03-production.up.railway.app/go/watch?ref=github-readme
+**Subscribe securely with Stripe:** https://buy.stripe.com/cNi5kE6ZAdxx0kHahF2VG0n
 
 ## Custom Branded Mission — $149
 
 A custom digital mission / scavenger-hunt concept for hotels, tourism businesses, events, teams and venues. Includes branded narrative, route/challenge structure, participant instructions and monetization ideas.
 
-Buy securely with Stripe: https://revenue-agent-v03-production.up.railway.app/go/mission?ref=github-readme
+**Buy securely with Stripe:** https://buy.stripe.com/cNi00kbfQ2ST0kH3Th2VG0o
 
 ## Commercial model
 
