@@ -10,6 +10,10 @@ Use the two-minute diagnostic to identify basic conversion leaks, then choose a 
 
 ## For agencies and partners
 
+**White-Label Revenue Intelligence for Hotel Agencies:** [docs/white-label-revenue-intelligence-for-hotel-agencies.md](docs/white-label-revenue-intelligence-for-hotel-agencies.md)
+
+Start with one hospitality client using the **Agency Revenue Intelligence Pilot — $490** and evaluate a reseller, licensing or recurring rollout from a real delivery sample.
+
 **Agency Productized Revenue Service Profit Calculator:** [docs/agency-productized-service-profit-calculator.md](docs/agency-productized-service-profit-calculator.md)
 
 Use it to model potential client adoption, MRR, gross profit and setup revenue before launching a white-label revenue-intelligence service.
