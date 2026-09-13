@@ -32,6 +32,7 @@ Agencies, consultants and operators can test the output first and then discuss r
 
 Use these free resources immediately:
 
+- [Sample 24-Hour Revenue Leak Audit](docs/sample-24h-revenue-leak-audit.md) — see the exact structure and specificity of the paid $49 audit before buying.
 - [Hotel Direct-Booking Revenue Leak Calculator](docs/hotel-direct-booking-revenue-leak-calculator.md) — estimate the monthly revenue and gross-profit upside from a small direct-booking conversion improvement, then prioritize CRO or guest-experience actions.
 - [Revenue Leak Cost Calculator](docs/revenue-leak-cost-calculator.md) — estimate the monthly revenue and gross-profit upside from small conversion-rate improvements before buying more traffic.
 - [Free Competitor Price Tracker Template](docs/free-competitor-price-tracker-template.md) — track weekly changes in pricing, offers, promotions and conversion tactics, then turn them into revenue experiments.
@@ -49,6 +50,8 @@ Use these free resources immediately:
 ## 24-Hour Revenue Leak Audit — $49
 
 A focused conversion and offer audit for a public website. Includes prioritized fixes, quick wins, CTA and trust analysis, pricing/offer observations and an actionable revenue plan.
+
+**See a sample first:** [Sample 24-Hour Revenue Leak Audit](docs/sample-24h-revenue-leak-audit.md)
 
 **Buy securely with Stripe:** https://buy.stripe.com/28EcN6bfQbpp1oL0H52VG0m
 
