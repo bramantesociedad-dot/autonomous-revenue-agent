@@ -32,6 +32,7 @@ Agencies, consultants and operators can test the output first and then discuss r
 
 Use these free resources immediately:
 
+- [Sample Boutique Hotel Competitor Revenue Report](docs/sample-boutique-hotel-competitor-revenue-report.md) — preview the weekly $79/month intelligence format, including pricing, positioning, promotion signals and ranked revenue experiments.
 - [Sample 24-Hour Revenue Leak Audit](docs/sample-24h-revenue-leak-audit.md) — see the exact structure and specificity of the paid $49 audit before buying.
 - [Hotel Direct-Booking Revenue Leak Calculator](docs/hotel-direct-booking-revenue-leak-calculator.md) — estimate the monthly revenue and gross-profit upside from a small direct-booking conversion improvement, then prioritize CRO or guest-experience actions.
 - [Revenue Leak Cost Calculator](docs/revenue-leak-cost-calculator.md) — estimate the monthly revenue and gross-profit upside from small conversion-rate improvements before buying more traffic.
@@ -58,6 +59,8 @@ A focused conversion and offer audit for a public website. Includes prioritized 
 ## Competitor Revenue Watch — $79/month
 
 Recurring competitor intelligence for small businesses. We monitor the customer's site and selected competitors and deliver weekly observations on offers, pricing, positioning, content, promotions and concrete revenue opportunities.
+
+**See a hospitality sample:** [Sample Boutique Hotel Competitor Revenue Report](docs/sample-boutique-hotel-competitor-revenue-report.md)
 
 **Subscribe securely with Stripe:** https://buy.stripe.com/9B63cw5Vw9hhc3pfBZ2VG0l
 
