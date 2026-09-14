@@ -18,10 +18,18 @@ This is designed for CRO agencies, hospitality/revenue-management firms, growth 
 
 Checkout collects the agency website, one client website and target market/country. Delivery is transactional to the buyer email used at checkout.
 
-## Price
+## Choose the fastest starting point
 
-**$490 USD one-time pilot**
+### Full Agency Revenue Intelligence Pilot — $490
+
+Use this when you want the complete one-client white-label-ready pilot, deeper competitor intelligence, revenue-leak analysis and a reseller/recurring path.
 
 **Buy securely with Stripe:** https://buy.stripe.com/cNieVees25110kHblJ2VG0p
 
-No paid ads, long contracts or implementation project are required for the pilot. Start with one client, judge the usefulness of the output, then decide whether to continue through referral, recurring monitoring, licensing or white-label delivery.
+### Agency Revenue Intelligence Starter — $149
+
+Use this when you want to validate the workflow on one client at lower commitment first. The Starter includes a competitor offer/pricing snapshot, positioning and promotion comparison, prioritized revenue opportunities and a client-ready summary.
+
+**Start for $149:** https://buy.stripe.com/4gM3cw5Vw6557N93Th2VG0q
+
+No paid ads, long contracts or implementation project are required. Start with one client, judge the usefulness of the output, then decide whether to continue through referral, recurring monitoring, licensing or white-label delivery.
